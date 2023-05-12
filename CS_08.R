@@ -437,13 +437,3 @@ plot(real$balance, type = 'line', main = 'Account Balance', ylim = c(900, 4000))
 abline(h = 1000, col = 'red')  # balance at t0
 
 real$balance[nrow(real)]/real$balance[1] * 100  # 349.74% increasing balance at end of year 2022
-
-
-
-
-
-
-
-
-
-
